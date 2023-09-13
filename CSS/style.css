@@ -1,0 +1,29 @@
+@font-face {
+    font-family: First Job;
+    src: url(..Fonts/FirstJob-X8rP.ttf);
+}
+
+*{  
+margin: 0;
+padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url('../Media/Images/psbk1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.intro{
+
+background-color: blue;
+
+}
+.in{
+    font-family:First Job;
+    font-size: larger;
+    color: white;
+    text-align: center;
+
+}

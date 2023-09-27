@@ -1,6 +1,6 @@
 @font-face {
-    font-family: First Job;
-    src: url(..Fonts/FirstJob-X8rP.ttf);
+    font-family: PS1 ;
+    src: url(../Media/Fonts/ps1.ttf);
 }
 
 *{  
@@ -20,10 +20,99 @@ body{
 background-color: blue;
 
 }
+
+.center {
+
+    text-align: center;
+    margin: auto;
+
+    
+    }
 .in{
-    font-family:First Job;
-    font-size: larger;
+    font-family: PS1;
+    font-size: 40px;
     color: white;
     text-align: center;
+
+}
+audio{
+    display: block;
+}
+.clickme{
+    background-color:rgb(38, 0, 255);
+    (100, 100, 239);
+    padding: 15px 32px;
+    font-size: 16px;
+    position: absolute;
+    bottom:0px;
+    right: 20px;
+    
+}
+.clickme:hover{
+    background-color: rgb(164, 143, 247);
+    cursor: pointer;
+}
+.clickme2{
+    background-color: transparent;
+    padding: 15px 32px;
+    font-family: PS1;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    right:30px;
+    border: none;
+}
+.none{
+    background-color: rgb(38,0,255);
+    font-size: 33px;
+    font-family: PS1;
+
+    
+}
+.none:hover{
+    background-color: red;
+    cursor: grab; 
+    position: absolute;
+    right: 200px;
+    top: 0px;
+}
+.btn{
+    position: absolute;
+    bottom: 0px;
+    right: 550px;
+    
+
+
+
+}
+.But2{
+    position: absolute;
+    right: 825px;
+    top: 75px;
+
+}
+.But3{
+    position: absolute;
+    right: 560px;
+    top: 250px;
+}
+
+.But4{
+    position: absolute;
+    right: 250px;
+    top: 170px;
+}
+
+.But5{
+    position: absolute;
+    right: -10px;
+    top: 100px;
+}
+
+.text {
+    position: absolute;
+    top: 700px;
+    right: 1000px;
+
 
 }
